@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kSg-kE-YcB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="k7Q-NM-ooZ">
+            <objects>
+                <viewController id="kSg-kE-YcB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KnI-HH-bhc"/>
+                        <viewControllerLayoutGuide type="bottom" id="FVf-2Z-eeV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Csf-nH-E9X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7He-5P-eMI">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7He-5P-eMI" secondAttribute="height" multiplier="510:73" id="szD-JU-iqa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="clinton_splash" translatesAutoresizingMaskIntoConstraints="NO" id="eRr-w5-dSf">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eRr-w5-dSf" secondAttribute="height" multiplier="430:540" id="azJ-6d-YkA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.25882352941176467" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eRr-w5-dSf" firstAttribute="top" secondItem="7He-5P-eMI" secondAttribute="bottom" constant="50" id="Bub-BE-1DH"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="centerX" secondItem="Csf-nH-E9X" secondAttribute="centerX" id="LFB-My-jYx"/>
+                            <constraint firstItem="eRr-w5-dSf" firstAttribute="centerX" secondItem="Csf-nH-E9X" secondAttribute="centerX" id="U2v-XU-BH4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eRr-w5-dSf" secondAttribute="bottom" id="eVo-iv-ARL"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="top" secondItem="Csf-nH-E9X" secondAttribute="topMargin" constant="30" id="r3O-t9-jMc"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="width" secondItem="Csf-nH-E9X" secondAttribute="width" multiplier="0.85" id="s9x-j9-pKQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Iou-Hy-2ha"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5kN-ja-XHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="375.56221889055473"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clinton_splash" width="903" height="1137"/>
+    </resources>
+</document>

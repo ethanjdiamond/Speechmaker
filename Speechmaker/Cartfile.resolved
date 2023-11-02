@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.1.0"
+github "magicalpanda/MagicalRecord" "v2.3.3"
+github "piemonte/Player" "0.2.1"
+github "ashleymills/Reachability.swift" "v3"
+github "ethanjdiamond/SDAVAssetExportSession" "1.0"
+github "appsailor/SwiftyJSON" "de73429b38b8994f614fb27c5ec094bb8a4833f2"

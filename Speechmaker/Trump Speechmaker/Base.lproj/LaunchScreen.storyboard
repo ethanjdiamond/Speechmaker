@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="kSg-kE-YcB">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="k7Q-NM-ooZ">
+            <objects>
+                <viewController id="kSg-kE-YcB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KnI-HH-bhc"/>
+                        <viewControllerLayoutGuide type="bottom" id="FVf-2Z-eeV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Csf-nH-E9X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7He-5P-eMI">
+                                <rect key="frame" x="45" y="30" width="510" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7He-5P-eMI" secondAttribute="height" multiplier="510:73" id="szD-JU-iqa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="trump_splash" translatesAutoresizingMaskIntoConstraints="NO" id="eRr-w5-dSf">
+                                <rect key="frame" x="102" y="153" width="396" height="447"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eRr-w5-dSf" secondAttribute="height" multiplier="724:817" id="JlN-A7-nrK"/>
+                                </constraints>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="-139" y="154" width="878" height="990"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.039215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eRr-w5-dSf" firstAttribute="top" secondItem="7He-5P-eMI" secondAttribute="bottom" constant="50" id="Bub-BE-1DH"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="centerX" secondItem="Csf-nH-E9X" secondAttribute="centerX" id="LFB-My-jYx"/>
+                            <constraint firstItem="eRr-w5-dSf" firstAttribute="centerX" secondItem="Csf-nH-E9X" secondAttribute="centerX" id="U2v-XU-BH4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eRr-w5-dSf" secondAttribute="bottom" id="eVo-iv-ARL"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="top" secondItem="Csf-nH-E9X" secondAttribute="topMargin" constant="30" id="r3O-t9-jMc"/>
+                            <constraint firstItem="7He-5P-eMI" firstAttribute="width" secondItem="Csf-nH-E9X" secondAttribute="width" multiplier="0.85" id="s9x-j9-pKQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Iou-Hy-2ha"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5kN-ja-XHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="376"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="trump_splash" width="877" height="989"/>
+    </resources>
+</document>

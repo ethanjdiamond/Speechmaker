@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760009FF1D8CE40900C2D421 /* HillaryGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760009FD1D8CE3DD00C2D421 /* HillaryGlobals.swift */; };
+		76000A071D8CE43300C2D421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76000A001D8CE43300C2D421 /* Assets.xcassets */; };
+		76000A081D8CE43300C2D421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76000A021D8CE43300C2D421 /* LaunchScreen.storyboard */; };
+		76000A091D8CE43300C2D421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76000A041D8CE43300C2D421 /* Main.storyboard */; };
+		76000A0B1D8CE9C800C2D421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B991D52F942005C97CC /* AppDelegate.swift */; };
+		76000A0C1D8CE9C800C2D421 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B971D52F86F005C97CC /* Globals.swift */; };
+		76000A0D1D8CE9CF00C2D421 /* MP4Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B951D52F828005C97CC /* MP4Converter.swift */; };
+		76000A0E1D8CE9CF00C2D421 /* SpeechmakerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632063A1D57915400900E31 /* SpeechmakerService.swift */; };
+		76000A0F1D8CE9CF00C2D421 /* VideoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206421D57AAB500900E31 /* VideoDownloadManager.swift */; };
+		76000A101D8CE9CF00C2D421 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692413A1D6028CE0009835F /* Extensions.swift */; };
+		76000A111D8CE9CF00C2D421 /* SpeechmakerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AD451D658DB200FD5C73 /* SpeechmakerError.swift */; };
+		76000A121D8CE9CF00C2D421 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3191D738F0F004914A7 /* AppVersion.swift */; };
+		76000A131D8CE9CF00C2D421 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3261D73F2FA004914A7 /* Animations.swift */; };
+		76000A141D8CE9D600C2D421 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338BD91D530D7B005C97CC /* App.swift */; };
+		76000A151D8CE9D600C2D421 /* Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D861D7D1E4400821E34 /* Pause.swift */; };
+		76000A161D8CE9D600C2D421 /* Fragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D911D7D211300821E34 /* Fragment.swift */; };
+		76000A171D8CE9D600C2D421 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338BDB1D530D7B005C97CC /* Word.swift */; };
+		76000A181D8CE9D600C2D421 /* FragmentVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632063C1D57978200900E31 /* FragmentVideo.swift */; };
+		76000A191D8CE9D900C2D421 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76338BD51D530D08005C97CC /* Model.xcdatamodeld */; };
+		76000A1A1D8CE9DF00C2D421 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D8E1D7D211300821E34 /* Word+CoreDataProperties.swift */; };
+		76000A1B1D8CE9DF00C2D421 /* App+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D8F1D7D211300821E34 /* App+CoreDataProperties.swift */; };
+		76000A1C1D8CE9DF00C2D421 /* Fragment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D901D7D211300821E34 /* Fragment+CoreDataProperties.swift */; };
+		76000A1D1D8CE9DF00C2D421 /* Pause+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D851D7D1E4400821E34 /* Pause+CoreDataProperties.swift */; };
+		76000A1E1D8CE9E300C2D421 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3241D73E6E3004914A7 /* LoadingView.swift */; };
+		76000A1F1D8CE9E300C2D421 /* NoConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3221D73E3DC004914A7 /* NoConnectionViewController.swift */; };
+		76000A201D8CE9E800C2D421 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE0C271D5FC8B200878EA6 /* LoadingViewController.swift */; };
+		76000A211D8CE9EF00C2D421 /* FragmentSelectorCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10A1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift */; };
+		76000A221D8CE9EF00C2D421 /* FragmentSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10B1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift */; };
+		76000A231D8CE9EF00C2D421 /* FragmentSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10C1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift */; };
+		76000A241D8CE9F300C2D421 /* SpeechCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B8F1D52F7F1005C97CC /* SpeechCreatorViewController.swift */; };
+		76000A251D8CE9F300C2D421 /* SpeechCreatorWordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE9A241D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift */; };
+		76000A261D8CE9F300C2D421 /* SpeechCreatorCursorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643BE381D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift */; };
+		76000A271D8CE9F300C2D421 /* SpeechCreatorCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643BE3A1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift */; };
+		76000A281D8CE9F300C2D421 /* SpeechCreatorPauseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617B4F01D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift */; };
+		76000A291D8CE9F900C2D421 /* VideoLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692413F1D602FB70009835F /* VideoLoadingViewController.swift */; };
+		76000A2A1D8CE9FE00C2D421 /* SocialAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9D41D66BF2700B7E997 /* SocialAccount.swift */; };
+		76000A2B1D8CE9FE00C2D421 /* FacebookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9D61D66BF5700B7E997 /* FacebookAccount.swift */; };
+		76000A2C1D8CE9FE00C2D421 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9DA1D66D2BC00B7E997 /* TwitterAccount.swift */; };
+		76000A2D1D8CEA0300C2D421 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AD3D1D6412FE00FD5C73 /* SocialViewController.swift */; };
+		76000A2E1D8CEA0300C2D421 /* SocialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7680AD411D6414D700FD5C73 /* SocialViewController.storyboard */; };
+		76000A2F1D8CEA0300C2D421 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206341D578A9F00900E31 /* PlayVideoViewController.swift */; };
+		76000A301D8CEA1600C2D421 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206361D578D9E00900E31 /* Player.swift */; };
+		76000A321D8CEA1A00C2D421 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763206441D58038E00900E31 /* AVFoundation.framework */; };
+		76000A351D8CEA1A00C2D421 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76338BD31D530CEF005C97CC /* CoreData.framework */; };
+		7617B4F11D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617B4F01D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift */; };
+		763206351D578A9F00900E31 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206341D578A9F00900E31 /* PlayVideoViewController.swift */; };
+		763206371D578D9E00900E31 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206361D578D9E00900E31 /* Player.swift */; };
+		7632063B1D57915400900E31 /* SpeechmakerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632063A1D57915400900E31 /* SpeechmakerService.swift */; };
+		7632063D1D57978200900E31 /* FragmentVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7632063C1D57978200900E31 /* FragmentVideo.swift */; };
+		763206431D57AAB500900E31 /* VideoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763206421D57AAB500900E31 /* VideoDownloadManager.swift */; };
+		76338B921D52F7F1005C97CC /* SpeechCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B8F1D52F7F1005C97CC /* SpeechCreatorViewController.swift */; };
+		76338B961D52F828005C97CC /* MP4Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B951D52F828005C97CC /* MP4Converter.swift */; };
+		76338B981D52F86F005C97CC /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B971D52F86F005C97CC /* Globals.swift */; };
+		76338B9A1D52F942005C97CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338B991D52F942005C97CC /* AppDelegate.swift */; };
+		76338BD71D530D08005C97CC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76338BD51D530D08005C97CC /* Model.xcdatamodeld */; };
+		76338BDE1D530D7B005C97CC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338BD91D530D7B005C97CC /* App.swift */; };
+		76338BE21D530D7B005C97CC /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76338BDB1D530D7B005C97CC /* Word.swift */; };
+		763B323F1D8E6FB400B9805C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B323D1D8E6FB400B9805C /* Reachability.swift */; };
+		763B32401D8EE97E00B9805C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D211A11D8E6E7F00376440 /* Alamofire.framework */; };
+		763B32411D8EE97E00B9805C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76D211A11D8E6E7F00376440 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763B32421D8EE97E00B9805C /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */; };
+		763B32431D8EE97E00B9805C /* MagicalRecord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763B32441D8EE98F00B9805C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D211A11D8E6E7F00376440 /* Alamofire.framework */; };
+		763B32451D8EE98F00B9805C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76D211A11D8E6E7F00376440 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763B32461D8EE98F00B9805C /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */; };
+		763B32471D8EE98F00B9805C /* MagicalRecord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		763B32481D8EF1CC00B9805C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B323D1D8E6FB400B9805C /* Reachability.swift */; };
+		763B32491D8EF1DF00B9805C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D211A91D8E6E9800376440 /* SwiftyJSON.swift */; };
+		7643BE391D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643BE381D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift */; };
+		7643BE3B1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643BE3A1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift */; };
+		764CF31A1D738F0F004914A7 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3191D738F0F004914A7 /* AppVersion.swift */; };
+		764CF3231D73E3DC004914A7 /* NoConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3221D73E3DC004914A7 /* NoConnectionViewController.swift */; };
+		764CF3251D73E6E3004914A7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3241D73E6E3004914A7 /* LoadingView.swift */; };
+		764CF3271D73F2FA004914A7 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3261D73F2FA004914A7 /* Animations.swift */; };
+		7653D9D51D66BF2700B7E997 /* SocialAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9D41D66BF2700B7E997 /* SocialAccount.swift */; };
+		7653D9D71D66BF5700B7E997 /* FacebookAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9D61D66BF5700B7E997 /* FacebookAccount.swift */; };
+		7653D9DB1D66D2BC00B7E997 /* TwitterAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653D9DA1D66D2BC00B7E997 /* TwitterAccount.swift */; };
+		766BC8501D4E7DA2004074FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766BC84E1D4E7DA2004074FA /* Main.storyboard */; };
+		766BC8521D4E7DA2004074FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766BC8511D4E7DA2004074FA /* Assets.xcassets */; };
+		766BC8551D4E7DA2004074FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766BC8531D4E7DA2004074FA /* LaunchScreen.storyboard */; };
+		766BC8931D4E7DE3004074FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766BC8921D4E7DE3004074FA /* main.swift */; };
+		7680AD2D1D616E0200FD5C73 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76338BD31D530CEF005C97CC /* CoreData.framework */; };
+		7680AD2E1D616E0A00FD5C73 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763206441D58038E00900E31 /* AVFoundation.framework */; };
+		7680AD3F1D6412FE00FD5C73 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AD3D1D6412FE00FD5C73 /* SocialViewController.swift */; };
+		7680AD421D6414D700FD5C73 /* SocialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7680AD411D6414D700FD5C73 /* SocialViewController.storyboard */; };
+		7680AD441D65838000FD5C73 /* TrumpGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AD431D65838000FD5C73 /* TrumpGlobals.swift */; };
+		7680AD461D658DB200FD5C73 /* SpeechmakerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AD451D658DB200FD5C73 /* SpeechmakerError.swift */; };
+		768EA10D1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10A1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift */; };
+		768EA10E1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10B1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift */; };
+		768EA10F1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768EA10C1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift */; };
+		7692413B1D6028CE0009835F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692413A1D6028CE0009835F /* Extensions.swift */; };
+		769241401D602FB70009835F /* VideoLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692413F1D602FB70009835F /* VideoLoadingViewController.swift */; };
+		76AB18421DB2B9E3002D1F25 /* VideoCombiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AB18411DB2B9E3002D1F25 /* VideoCombiner.swift */; };
+		76AB18431DB2B9E3002D1F25 /* VideoCombiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AB18411DB2B9E3002D1F25 /* VideoCombiner.swift */; };
+		76BE0C281D5FC8B200878EA6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE0C271D5FC8B200878EA6 /* LoadingViewController.swift */; };
+		76BE9A251D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE9A241D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift */; };
+		76C6B9901D9A581D00AA42C6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6B9831D9A41A500AA42C6 /* Fabric.framework */; };
+		76C6B9911D9A581D00AA42C6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6B9841D9A41A500AA42C6 /* Crashlytics.framework */; };
+		76C6B9921D9A582500AA42C6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6B9831D9A41A500AA42C6 /* Fabric.framework */; };
+		76C6B9931D9A582500AA42C6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6B9841D9A41A500AA42C6 /* Crashlytics.framework */; };
+		76CC347D1DA6B69E009573C5 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CC347C1DA6B69E009573C5 /* SDAVAssetExportSession.m */; };
+		76CC347E1DA6B743009573C5 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CC347C1DA6B69E009573C5 /* SDAVAssetExportSession.m */; };
+		76CC34801DA9B770009573C5 /* mark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 76CC347F1DA9B770009573C5 /* mark.mp4 */; };
+		76D211AE1D8E6E9800376440 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D211A91D8E6E9800376440 /* SwiftyJSON.swift */; };
+		76EC0D891D7D1E4400821E34 /* Pause+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D851D7D1E4400821E34 /* Pause+CoreDataProperties.swift */; };
+		76EC0D8A1D7D1E4400821E34 /* Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D861D7D1E4400821E34 /* Pause.swift */; };
+		76EC0D931D7D211300821E34 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D8E1D7D211300821E34 /* Word+CoreDataProperties.swift */; };
+		76EC0D941D7D211300821E34 /* App+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D8F1D7D211300821E34 /* App+CoreDataProperties.swift */; };
+		76EC0D951D7D211300821E34 /* Fragment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D901D7D211300821E34 /* Fragment+CoreDataProperties.swift */; };
+		76EC0D961D7D211300821E34 /* Fragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC0D911D7D211300821E34 /* Fragment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76000A3D1D8CEE4300C2D421 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				763B32471D8EE98F00B9805C /* MagicalRecord.framework in Embed Frameworks */,
+				763B32451D8EE98F00B9805C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC88E1D4E7DE3004074FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7680AD381D6178D100FD5C73 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				763B32431D8EE97E00B9805C /* MagicalRecord.framework in Embed Frameworks */,
+				763B32411D8EE97E00B9805C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		760009EA1D8CE3CA00C2D421 /* Hillary Speechmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hillary Speechmaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760009FD1D8CE3DD00C2D421 /* HillaryGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HillaryGlobals.swift; sourceTree = "<group>"; };
+		76000A001D8CE43300C2D421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76000A031D8CE43300C2D421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76000A051D8CE43300C2D421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		76000A061D8CE43300C2D421 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7617B4F01D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechCreatorPauseCollectionViewCell.swift; sourceTree = "<group>"; };
+		763206341D578A9F00900E31 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		763206361D578D9E00900E31 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Carthage/Checkouts/Player/Sources/Player.swift; sourceTree = "<group>"; };
+		7632063A1D57915400900E31 /* SpeechmakerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechmakerService.swift; sourceTree = "<group>"; };
+		7632063C1D57978200900E31 /* FragmentVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentVideo.swift; sourceTree = "<group>"; };
+		763206421D57AAB500900E31 /* VideoDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDownloadManager.swift; sourceTree = "<group>"; };
+		763206441D58038E00900E31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76338B8F1D52F7F1005C97CC /* SpeechCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechCreatorViewController.swift; sourceTree = "<group>"; };
+		76338B951D52F828005C97CC /* MP4Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MP4Converter.swift; sourceTree = "<group>"; };
+		76338B971D52F86F005C97CC /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		76338B991D52F942005C97CC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76338B9D1D52FC2E005C97CC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		76338BD31D530CEF005C97CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		76338BD61D530D08005C97CC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		76338BD91D530D7B005C97CC /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		76338BDB1D530D7B005C97CC /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		763B323D1D8E6FB400B9805C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7643BE381D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechCreatorCursorCollectionViewCell.swift; sourceTree = "<group>"; };
+		7643BE3A1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechCreatorCollectionViewLayout.swift; sourceTree = "<group>"; };
+		764CF3191D738F0F004914A7 /* AppVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
+		764CF3221D73E3DC004914A7 /* NoConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoConnectionViewController.swift; sourceTree = "<group>"; };
+		764CF3241D73E6E3004914A7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		764CF3261D73F2FA004914A7 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		7653D9D41D66BF2700B7E997 /* SocialAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialAccount.swift; sourceTree = "<group>"; };
+		7653D9D61D66BF5700B7E997 /* FacebookAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAccount.swift; sourceTree = "<group>"; };
+		7653D9DA1D66D2BC00B7E997 /* TwitterAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccount.swift; sourceTree = "<group>"; };
+		766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicalRecord.framework; path = Carthage/Build/iOS/MagicalRecord.framework; sourceTree = "<group>"; };
+		766BC8481D4E7DA2004074FA /* Trump Speechmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump Speechmaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		766BC84F1D4E7DA2004074FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		766BC8511D4E7DA2004074FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		766BC8541D4E7DA2004074FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		766BC8561D4E7DA2004074FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766BC8901D4E7DE3004074FA /* VideoCombiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoCombiner; sourceTree = BUILT_PRODUCTS_DIR; };
+		766BC8921D4E7DE3004074FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7680AD3D1D6412FE00FD5C73 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		7680AD411D6414D700FD5C73 /* SocialViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SocialViewController.storyboard; sourceTree = "<group>"; };
+		7680AD431D65838000FD5C73 /* TrumpGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrumpGlobals.swift; sourceTree = "<group>"; };
+		7680AD451D658DB200FD5C73 /* SpeechmakerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechmakerError.swift; sourceTree = "<group>"; };
+		768EA10A1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentSelectorCollectionViewLayout.swift; sourceTree = "<group>"; };
+		768EA10B1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentSelectorViewController.swift; sourceTree = "<group>"; };
+		768EA10C1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		7692413A1D6028CE0009835F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7692413F1D602FB70009835F /* VideoLoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLoadingViewController.swift; sourceTree = "<group>"; };
+		76AB18411DB2B9E3002D1F25 /* VideoCombiner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCombiner.swift; sourceTree = "<group>"; };
+		76BE0C271D5FC8B200878EA6 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		76BE9A241D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechCreatorWordCollectionViewCell.swift; sourceTree = "<group>"; };
+		76C6B9831D9A41A500AA42C6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		76C6B9841D9A41A500AA42C6 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		76CC347A1DA6B69E009573C5 /* Trump Speechmaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Trump Speechmaker-Bridging-Header.h"; path = "../Trump Speechmaker-Bridging-Header.h"; sourceTree = "<group>"; };
+		76CC347B1DA6B69E009573C5 /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDAVAssetExportSession.h; path = Carthage/Checkouts/SDAVAssetExportSession/SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		76CC347C1DA6B69E009573C5 /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDAVAssetExportSession.m; path = Carthage/Checkouts/SDAVAssetExportSession/SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		76CC347F1DA9B770009573C5 /* mark.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mark.mp4; sourceTree = "<group>"; };
+		76D211A11D8E6E7F00376440 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		76D211A91D8E6E9800376440 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		76EC0D851D7D1E4400821E34 /* Pause+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pause+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76EC0D861D7D1E4400821E34 /* Pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pause.swift; sourceTree = "<group>"; };
+		76EC0D8E1D7D211300821E34 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76EC0D8F1D7D211300821E34 /* App+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76EC0D901D7D211300821E34 /* Fragment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fragment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76EC0D911D7D211300821E34 /* Fragment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fragment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760009E71D8CE3CA00C2D421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C6B9921D9A582500AA42C6 /* Fabric.framework in Frameworks */,
+				76C6B9931D9A582500AA42C6 /* Crashlytics.framework in Frameworks */,
+				763B32461D8EE98F00B9805C /* MagicalRecord.framework in Frameworks */,
+				76000A321D8CEA1A00C2D421 /* AVFoundation.framework in Frameworks */,
+				763B32441D8EE98F00B9805C /* Alamofire.framework in Frameworks */,
+				76000A351D8CEA1A00C2D421 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC8451D4E7DA2004074FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C6B9901D9A581D00AA42C6 /* Fabric.framework in Frameworks */,
+				76C6B9911D9A581D00AA42C6 /* Crashlytics.framework in Frameworks */,
+				7680AD2E1D616E0A00FD5C73 /* AVFoundation.framework in Frameworks */,
+				7680AD2D1D616E0200FD5C73 /* CoreData.framework in Frameworks */,
+				763B32421D8EE97E00B9805C /* MagicalRecord.framework in Frameworks */,
+				763B32401D8EE97E00B9805C /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC88D1D4E7DE3004074FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760009FC1D8CE3DD00C2D421 /* Hillary Speechmaker */ = {
+			isa = PBXGroup;
+			children = (
+				76000A061D8CE43300C2D421 /* Info.plist */,
+				760009FD1D8CE3DD00C2D421 /* HillaryGlobals.swift */,
+				76000A041D8CE43300C2D421 /* Main.storyboard */,
+				76000A001D8CE43300C2D421 /* Assets.xcassets */,
+				76000A021D8CE43300C2D421 /* LaunchScreen.storyboard */,
+			);
+			path = "Hillary Speechmaker";
+			sourceTree = "<group>";
+		};
+		763206331D578A6300900E31 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				7692413E1D602FA00009835F /* VideoLoading */,
+				7680AD3A1D6412C100FD5C73 /* Social */,
+				763206341D578A9F00900E31 /* PlayVideoViewController.swift */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		76338B8C1D52F7A0005C97CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76338BD51D530D08005C97CC /* Model.xcdatamodeld */,
+				76338BD91D530D7B005C97CC /* App.swift */,
+				76EC0D861D7D1E4400821E34 /* Pause.swift */,
+				76EC0D911D7D211300821E34 /* Fragment.swift */,
+				76338BDB1D530D7B005C97CC /* Word.swift */,
+				7632063C1D57978200900E31 /* FragmentVideo.swift */,
+				76338BE41D530DBC005C97CC /* Autogenerated */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76338B8D1D52F7AA005C97CC /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				764CF3211D73E3BE004914A7 /* Global */,
+				76BE0C261D5FC87900878EA6 /* Loading */,
+				76338B8E1D52F7F1005C97CC /* SpeechCreator */,
+				763206331D578A6300900E31 /* PlayVideo */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		76338B8E1D52F7F1005C97CC /* SpeechCreator */ = {
+			isa = PBXGroup;
+			children = (
+				768EA1091D7D22F000BC3AF0 /* FragmentSelector */,
+				76338B8F1D52F7F1005C97CC /* SpeechCreatorViewController.swift */,
+				76BE9A241D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift */,
+				7643BE381D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift */,
+				7643BE3A1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift */,
+				7617B4F01D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift */,
+			);
+			path = SpeechCreator;
+			sourceTree = "<group>";
+		};
+		76338B941D52F7FF005C97CC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				76338B951D52F828005C97CC /* MP4Converter.swift */,
+				76AB18411DB2B9E3002D1F25 /* VideoCombiner.swift */,
+				7632063A1D57915400900E31 /* SpeechmakerService.swift */,
+				763206421D57AAB500900E31 /* VideoDownloadManager.swift */,
+				7692413A1D6028CE0009835F /* Extensions.swift */,
+				7680AD451D658DB200FD5C73 /* SpeechmakerError.swift */,
+				764CF3191D738F0F004914A7 /* AppVersion.swift */,
+				764CF3261D73F2FA004914A7 /* Animations.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		76338B9F1D52FC42005C97CC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				76CC34791DA6B669009573C5 /* SDAVAssetExportSession */,
+				763B323A1D8E6FB400B9805C /* Reachability */,
+				766849881D8E61090084FBF7 /* Player */,
+				76D211A31D8E6E9800376440 /* SwiftyJSON */,
+				76C6B9831D9A41A500AA42C6 /* Fabric.framework */,
+				76C6B9841D9A41A500AA42C6 /* Crashlytics.framework */,
+				76D211A11D8E6E7F00376440 /* Alamofire.framework */,
+				766849AD1D8E61EE0084FBF7 /* MagicalRecord.framework */,
+				763206441D58038E00900E31 /* AVFoundation.framework */,
+				76338BD31D530CEF005C97CC /* CoreData.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		76338BE41D530DBC005C97CC /* Autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				76EC0D8E1D7D211300821E34 /* Word+CoreDataProperties.swift */,
+				76EC0D8F1D7D211300821E34 /* App+CoreDataProperties.swift */,
+				76EC0D901D7D211300821E34 /* Fragment+CoreDataProperties.swift */,
+				76EC0D851D7D1E4400821E34 /* Pause+CoreDataProperties.swift */,
+			);
+			name = Autogenerated;
+			sourceTree = "<group>";
+		};
+		763B323A1D8E6FB400B9805C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				763B323D1D8E6FB400B9805C /* Reachability.swift */,
+			);
+			name = Reachability;
+			path = Carthage/Checkouts/Reachability.swift/Reachability;
+			sourceTree = "<group>";
+		};
+		764CF3211D73E3BE004914A7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				764CF3241D73E6E3004914A7 /* LoadingView.swift */,
+				764CF3221D73E3DC004914A7 /* NoConnectionViewController.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		7653D9D31D66BEF000B7E997 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				7653D9D41D66BF2700B7E997 /* SocialAccount.swift */,
+				7653D9D61D66BF5700B7E997 /* FacebookAccount.swift */,
+				7653D9DA1D66D2BC00B7E997 /* TwitterAccount.swift */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		766849881D8E61090084FBF7 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				763206361D578D9E00900E31 /* Player.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		766BC8181D4E7D70004074FA = {
+			isa = PBXGroup;
+			children = (
+				76338B9D1D52FC2E005C97CC /* Cartfile */,
+				76CD084F1D52F2A40077840B /* Speechmaker */,
+				766BC8491D4E7DA2004074FA /* Trump Speechmaker */,
+				760009FC1D8CE3DD00C2D421 /* Hillary Speechmaker */,
+				766BC8911D4E7DE3004074FA /* VideoCombiner */,
+				76338B9F1D52FC42005C97CC /* Libraries */,
+				766BC8221D4E7D70004074FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		766BC8221D4E7D70004074FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				766BC8481D4E7DA2004074FA /* Trump Speechmaker.app */,
+				766BC8901D4E7DE3004074FA /* VideoCombiner */,
+				760009EA1D8CE3CA00C2D421 /* Hillary Speechmaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		766BC8491D4E7DA2004074FA /* Trump Speechmaker */ = {
+			isa = PBXGroup;
+			children = (
+				76CC347F1DA9B770009573C5 /* mark.mp4 */,
+				766BC8561D4E7DA2004074FA /* Info.plist */,
+				7680AD431D65838000FD5C73 /* TrumpGlobals.swift */,
+				766BC84E1D4E7DA2004074FA /* Main.storyboard */,
+				766BC8511D4E7DA2004074FA /* Assets.xcassets */,
+				766BC8531D4E7DA2004074FA /* LaunchScreen.storyboard */,
+			);
+			path = "Trump Speechmaker";
+			sourceTree = "<group>";
+		};
+		766BC8911D4E7DE3004074FA /* VideoCombiner */ = {
+			isa = PBXGroup;
+			children = (
+				766BC8921D4E7DE3004074FA /* main.swift */,
+			);
+			path = VideoCombiner;
+			sourceTree = "<group>";
+		};
+		7680AD3A1D6412C100FD5C73 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				7653D9D31D66BEF000B7E997 /* Accounts */,
+				7680AD3D1D6412FE00FD5C73 /* SocialViewController.swift */,
+				7680AD411D6414D700FD5C73 /* SocialViewController.storyboard */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		768EA1091D7D22F000BC3AF0 /* FragmentSelector */ = {
+			isa = PBXGroup;
+			children = (
+				768EA10A1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift */,
+				768EA10B1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift */,
+				768EA10C1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift */,
+			);
+			path = FragmentSelector;
+			sourceTree = "<group>";
+		};
+		7692413E1D602FA00009835F /* VideoLoading */ = {
+			isa = PBXGroup;
+			children = (
+				7692413F1D602FB70009835F /* VideoLoadingViewController.swift */,
+			);
+			path = VideoLoading;
+			sourceTree = "<group>";
+		};
+		76BE0C261D5FC87900878EA6 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				76BE0C271D5FC8B200878EA6 /* LoadingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		76CC34791DA6B669009573C5 /* SDAVAssetExportSession */ = {
+			isa = PBXGroup;
+			children = (
+				76CC347B1DA6B69E009573C5 /* SDAVAssetExportSession.h */,
+				76CC347C1DA6B69E009573C5 /* SDAVAssetExportSession.m */,
+			);
+			name = SDAVAssetExportSession;
+			sourceTree = "<group>";
+		};
+		76CD084F1D52F2A40077840B /* Speechmaker */ = {
+			isa = PBXGroup;
+			children = (
+				76CC347A1DA6B69E009573C5 /* Trump Speechmaker-Bridging-Header.h */,
+				76338B991D52F942005C97CC /* AppDelegate.swift */,
+				76338B971D52F86F005C97CC /* Globals.swift */,
+				76338B8C1D52F7A0005C97CC /* Models */,
+				76338B8D1D52F7AA005C97CC /* Flows */,
+				76338B941D52F7FF005C97CC /* Utility */,
+			);
+			path = Speechmaker;
+			sourceTree = "<group>";
+		};
+		76D211A31D8E6E9800376440 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				76D211A91D8E6E9800376440 /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			path = Carthage/Checkouts/SwiftyJSON/Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760009E91D8CE3CA00C2D421 /* Hillary Speechmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760009FB1D8CE3CA00C2D421 /* Build configuration list for PBXNativeTarget "Hillary Speechmaker" */;
+			buildPhases = (
+				760009E61D8CE3CA00C2D421 /* Sources */,
+				760009E71D8CE3CA00C2D421 /* Frameworks */,
+				760009E81D8CE3CA00C2D421 /* Resources */,
+				76000A3D1D8CEE4300C2D421 /* Embed Frameworks */,
+				76000A3A1D8CEE1900C2D421 /* ShellScript */,
+				76C6B9811D9A405600AA42C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hillary Speechmaker";
+			productName = "Hillary Speechmaker";
+			productReference = 760009EA1D8CE3CA00C2D421 /* Hillary Speechmaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		766BC8471D4E7DA2004074FA /* Trump Speechmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766BC8621D4E7DA2004074FA /* Build configuration list for PBXNativeTarget "Trump Speechmaker" */;
+			buildPhases = (
+				766BC8441D4E7DA2004074FA /* Sources */,
+				766BC8451D4E7DA2004074FA /* Frameworks */,
+				766BC8461D4E7DA2004074FA /* Resources */,
+				7680AD381D6178D100FD5C73 /* Embed Frameworks */,
+				7680AD391D617AD100FD5C73 /* ShellScript */,
+				76C6B9821D9A406000AA42C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trump Speechmaker";
+			productName = "Trump Speechmaker";
+			productReference = 766BC8481D4E7DA2004074FA /* Trump Speechmaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		766BC88F1D4E7DE3004074FA /* VideoCombiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766BC8941D4E7DE3004074FA /* Build configuration list for PBXNativeTarget "VideoCombiner" */;
+			buildPhases = (
+				766BC88C1D4E7DE3004074FA /* Sources */,
+				766BC88D1D4E7DE3004074FA /* Frameworks */,
+				766BC88E1D4E7DE3004074FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCombiner;
+			productName = VideoCombiner;
+			productReference = 766BC8901D4E7DE3004074FA /* VideoCombiner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		766BC8191D4E7D70004074FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bad Mouth LLC";
+				TargetAttributes = {
+					760009E91D8CE3CA00C2D421 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4B74EL7MPF;
+						LastSwiftMigration = 0800;
+					};
+					766BC8471D4E7DA2004074FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4B74EL7MPF;
+						LastSwiftMigration = 0800;
+					};
+					766BC88F1D4E7DE3004074FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4B74EL7MPF;
+					};
+				};
+			};
+			buildConfigurationList = 766BC81C1D4E7D70004074FA /* Build configuration list for PBXProject "Speechmaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 766BC8181D4E7D70004074FA;
+			productRefGroup = 766BC8221D4E7D70004074FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				766BC8471D4E7DA2004074FA /* Trump Speechmaker */,
+				766BC88F1D4E7DE3004074FA /* VideoCombiner */,
+				760009E91D8CE3CA00C2D421 /* Hillary Speechmaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		760009E81D8CE3CA00C2D421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76000A2E1D8CEA0300C2D421 /* SocialViewController.storyboard in Resources */,
+				76000A091D8CE43300C2D421 /* Main.storyboard in Resources */,
+				76000A071D8CE43300C2D421 /* Assets.xcassets in Resources */,
+				76000A081D8CE43300C2D421 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC8461D4E7DA2004074FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7680AD421D6414D700FD5C73 /* SocialViewController.storyboard in Resources */,
+				766BC8551D4E7DA2004074FA /* LaunchScreen.storyboard in Resources */,
+				766BC8521D4E7DA2004074FA /* Assets.xcassets in Resources */,
+				76CC34801DA9B770009573C5 /* mark.mp4 in Resources */,
+				766BC8501D4E7DA2004074FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76000A3A1D8CEE1900C2D421 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
+		7680AD391D617AD100FD5C73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
+		76C6B9811D9A405600AA42C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 14992fe5cd5d8134acaa603a75083cf9c869bef1 9231eb12801dfaa71d53c04a305948cf27e93ed7efc6e4f40512edb7787d48da";
+		};
+		76C6B9821D9A406000AA42C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 14992fe5cd5d8134acaa603a75083cf9c869bef1 9231eb12801dfaa71d53c04a305948cf27e93ed7efc6e4f40512edb7787d48da";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760009E61D8CE3CA00C2D421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76000A111D8CE9CF00C2D421 /* SpeechmakerError.swift in Sources */,
+				76000A171D8CE9D600C2D421 /* Word.swift in Sources */,
+				76000A1A1D8CE9DF00C2D421 /* Word+CoreDataProperties.swift in Sources */,
+				763B32491D8EF1DF00B9805C /* SwiftyJSON.swift in Sources */,
+				76000A0D1D8CE9CF00C2D421 /* MP4Converter.swift in Sources */,
+				76000A281D8CE9F300C2D421 /* SpeechCreatorPauseCollectionViewCell.swift in Sources */,
+				76000A141D8CE9D600C2D421 /* App.swift in Sources */,
+				76000A1E1D8CE9E300C2D421 /* LoadingView.swift in Sources */,
+				76000A261D8CE9F300C2D421 /* SpeechCreatorCursorCollectionViewCell.swift in Sources */,
+				76000A1F1D8CE9E300C2D421 /* NoConnectionViewController.swift in Sources */,
+				76000A0B1D8CE9C800C2D421 /* AppDelegate.swift in Sources */,
+				76000A121D8CE9CF00C2D421 /* AppVersion.swift in Sources */,
+				76AB18431DB2B9E3002D1F25 /* VideoCombiner.swift in Sources */,
+				76000A221D8CE9EF00C2D421 /* FragmentSelectorViewController.swift in Sources */,
+				76000A161D8CE9D600C2D421 /* Fragment.swift in Sources */,
+				76000A251D8CE9F300C2D421 /* SpeechCreatorWordCollectionViewCell.swift in Sources */,
+				760009FF1D8CE40900C2D421 /* HillaryGlobals.swift in Sources */,
+				76000A2D1D8CEA0300C2D421 /* SocialViewController.swift in Sources */,
+				76000A301D8CEA1600C2D421 /* Player.swift in Sources */,
+				76000A1B1D8CE9DF00C2D421 /* App+CoreDataProperties.swift in Sources */,
+				76000A1D1D8CE9DF00C2D421 /* Pause+CoreDataProperties.swift in Sources */,
+				76000A201D8CE9E800C2D421 /* LoadingViewController.swift in Sources */,
+				76000A0F1D8CE9CF00C2D421 /* VideoDownloadManager.swift in Sources */,
+				76000A241D8CE9F300C2D421 /* SpeechCreatorViewController.swift in Sources */,
+				76000A131D8CE9CF00C2D421 /* Animations.swift in Sources */,
+				76000A2C1D8CE9FE00C2D421 /* TwitterAccount.swift in Sources */,
+				76000A181D8CE9D600C2D421 /* FragmentVideo.swift in Sources */,
+				76000A1C1D8CE9DF00C2D421 /* Fragment+CoreDataProperties.swift in Sources */,
+				76000A2B1D8CE9FE00C2D421 /* FacebookAccount.swift in Sources */,
+				76000A231D8CE9EF00C2D421 /* FragmentSelectorCollectionViewCell.swift in Sources */,
+				76000A191D8CE9D900C2D421 /* Model.xcdatamodeld in Sources */,
+				76000A151D8CE9D600C2D421 /* Pause.swift in Sources */,
+				76000A0C1D8CE9C800C2D421 /* Globals.swift in Sources */,
+				76000A2A1D8CE9FE00C2D421 /* SocialAccount.swift in Sources */,
+				76000A2F1D8CEA0300C2D421 /* PlayVideoViewController.swift in Sources */,
+				76000A0E1D8CE9CF00C2D421 /* SpeechmakerService.swift in Sources */,
+				76000A271D8CE9F300C2D421 /* SpeechCreatorCollectionViewLayout.swift in Sources */,
+				76000A101D8CE9CF00C2D421 /* Extensions.swift in Sources */,
+				76CC347E1DA6B743009573C5 /* SDAVAssetExportSession.m in Sources */,
+				76000A291D8CE9F900C2D421 /* VideoLoadingViewController.swift in Sources */,
+				76000A211D8CE9EF00C2D421 /* FragmentSelectorCollectionViewLayout.swift in Sources */,
+				763B32481D8EF1CC00B9805C /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC8441D4E7DA2004074FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768EA10E1D7D22F000BC3AF0 /* FragmentSelectorViewController.swift in Sources */,
+				768EA10F1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewCell.swift in Sources */,
+				7643BE3B1D5ED181002C6F93 /* SpeechCreatorCollectionViewLayout.swift in Sources */,
+				76338B961D52F828005C97CC /* MP4Converter.swift in Sources */,
+				76BE9A251D543987007A5B9C /* SpeechCreatorWordCollectionViewCell.swift in Sources */,
+				76338B921D52F7F1005C97CC /* SpeechCreatorViewController.swift in Sources */,
+				7643BE391D5C3957002C6F93 /* SpeechCreatorCursorCollectionViewCell.swift in Sources */,
+				76338B981D52F86F005C97CC /* Globals.swift in Sources */,
+				76EC0D891D7D1E4400821E34 /* Pause+CoreDataProperties.swift in Sources */,
+				76338BD71D530D08005C97CC /* Model.xcdatamodeld in Sources */,
+				76EC0D931D7D211300821E34 /* Word+CoreDataProperties.swift in Sources */,
+				76EC0D941D7D211300821E34 /* App+CoreDataProperties.swift in Sources */,
+				76AB18421DB2B9E3002D1F25 /* VideoCombiner.swift in Sources */,
+				76EC0D951D7D211300821E34 /* Fragment+CoreDataProperties.swift in Sources */,
+				7653D9DB1D66D2BC00B7E997 /* TwitterAccount.swift in Sources */,
+				7680AD441D65838000FD5C73 /* TrumpGlobals.swift in Sources */,
+				7692413B1D6028CE0009835F /* Extensions.swift in Sources */,
+				76EC0D961D7D211300821E34 /* Fragment.swift in Sources */,
+				764CF3251D73E6E3004914A7 /* LoadingView.swift in Sources */,
+				7617B4F11D7D3D9E00A31D57 /* SpeechCreatorPauseCollectionViewCell.swift in Sources */,
+				764CF3231D73E3DC004914A7 /* NoConnectionViewController.swift in Sources */,
+				76338B9A1D52F942005C97CC /* AppDelegate.swift in Sources */,
+				76338BDE1D530D7B005C97CC /* App.swift in Sources */,
+				76338BE21D530D7B005C97CC /* Word.swift in Sources */,
+				764CF3271D73F2FA004914A7 /* Animations.swift in Sources */,
+				76D211AE1D8E6E9800376440 /* SwiftyJSON.swift in Sources */,
+				7680AD461D658DB200FD5C73 /* SpeechmakerError.swift in Sources */,
+				768EA10D1D7D22F000BC3AF0 /* FragmentSelectorCollectionViewLayout.swift in Sources */,
+				7680AD3F1D6412FE00FD5C73 /* SocialViewController.swift in Sources */,
+				7653D9D51D66BF2700B7E997 /* SocialAccount.swift in Sources */,
+				7653D9D71D66BF5700B7E997 /* FacebookAccount.swift in Sources */,
+				763206431D57AAB500900E31 /* VideoDownloadManager.swift in Sources */,
+				7632063B1D57915400900E31 /* SpeechmakerService.swift in Sources */,
+				7632063D1D57978200900E31 /* FragmentVideo.swift in Sources */,
+				764CF31A1D738F0F004914A7 /* AppVersion.swift in Sources */,
+				763206351D578A9F00900E31 /* PlayVideoViewController.swift in Sources */,
+				76EC0D8A1D7D1E4400821E34 /* Pause.swift in Sources */,
+				769241401D602FB70009835F /* VideoLoadingViewController.swift in Sources */,
+				76CC347D1DA6B69E009573C5 /* SDAVAssetExportSession.m in Sources */,
+				76BE0C281D5FC8B200878EA6 /* LoadingViewController.swift in Sources */,
+				763B323F1D8E6FB400B9805C /* Reachability.swift in Sources */,
+				763206371D578D9E00900E31 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766BC88C1D4E7DE3004074FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766BC8931D4E7DE3004074FA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76000A021D8CE43300C2D421 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76000A031D8CE43300C2D421 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		76000A041D8CE43300C2D421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76000A051D8CE43300C2D421 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		766BC84E1D4E7DA2004074FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766BC84F1D4E7DA2004074FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		766BC8531D4E7DA2004074FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766BC8541D4E7DA2004074FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		760009F91D8CE3CA00C2D421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4B74EL7MPF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Hillary Speechmaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanjdiamond.Hillary-Speechmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		760009FA1D8CE3CA00C2D421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4B74EL7MPF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Hillary Speechmaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanjdiamond.Hillary-Speechmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		766BC83C1D4E7D73004074FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4B74EL7MPF;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		766BC83D1D4E7D73004074FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4B74EL7MPF;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		766BC8631D4E7DA2004074FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Trump Speechmaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanjdiamond.Trump-Speechmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trump Speechmaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		766BC8641D4E7DA2004074FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Trump Speechmaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanjdiamond.Trump-Speechmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trump Speechmaker-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		766BC8951D4E7DE3004074FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		766BC8961D4E7DE3004074FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760009FB1D8CE3CA00C2D421 /* Build configuration list for PBXNativeTarget "Hillary Speechmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760009F91D8CE3CA00C2D421 /* Debug */,
+				760009FA1D8CE3CA00C2D421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766BC81C1D4E7D70004074FA /* Build configuration list for PBXProject "Speechmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766BC83C1D4E7D73004074FA /* Debug */,
+				766BC83D1D4E7D73004074FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766BC8621D4E7DA2004074FA /* Build configuration list for PBXNativeTarget "Trump Speechmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766BC8631D4E7DA2004074FA /* Debug */,
+				766BC8641D4E7DA2004074FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766BC8941D4E7DE3004074FA /* Build configuration list for PBXNativeTarget "VideoCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766BC8951D4E7DE3004074FA /* Debug */,
+				766BC8961D4E7DE3004074FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76338BD51D530D08005C97CC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76338BD61D530D08005C97CC /* Model.xcdatamodel */,
+			);
+			currentVersion = 76338BD61D530D08005C97CC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 766BC8191D4E7D70004074FA /* Project object */;
+}

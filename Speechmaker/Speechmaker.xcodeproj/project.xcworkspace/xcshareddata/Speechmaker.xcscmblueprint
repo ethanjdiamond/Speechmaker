@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D346B720417019A0EF0E31BBE062B7B8EDB13E78",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "248224E4B2C991E1BF6BB5D989F0A2FDA18E6545" : 9223372036854775807,
+    "D346B720417019A0EF0E31BBE062B7B8EDB13E78" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F9E91E0-CA31-4A7C-8877-69B852275E61",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "248224E4B2C991E1BF6BB5D989F0A2FDA18E6545" : "Speechmaker\/Speechmaker\/Carthage\/Checkouts\/SDAVAssetExportSession\/",
+    "D346B720417019A0EF0E31BBE062B7B8EDB13E78" : "Speechmaker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Speechmaker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Speechmaker\/Speechmaker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rs\/SDAVAssetExportSession.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "248224E4B2C991E1BF6BB5D989F0A2FDA18E6545"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ethanjdiamond\/Speechmaker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D346B720417019A0EF0E31BBE062B7B8EDB13E78"
+    }
+  ]
+}
